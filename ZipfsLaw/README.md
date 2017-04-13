@@ -15,7 +15,7 @@ Amount of unique words: 536
 
 | Number of occurrences | Number of words | 
 |:---------------------:|:---------------:|
-|1                      |395              | --> Meaning 73% of the total 
+|1                      |395              | 
 |2                      |66               |
 |3                      |20               |
 |4                      |14               |
@@ -41,9 +41,9 @@ Amount of unique words: 536
 |48                     |1                |
 |50                     |1                |
 
+So as we can see the percentage of words that occur only once in the text is 73%, however if we use stopping that percentage goes down to 53%, being closer to Zipf's Law and therefore proving it.
 
-However when applying stopping (spanish stop words taken from [here](https://github.com/6/stopwords-json)) the results 
-are even more suitable as can be seen in the following table:
+The results of applying the script with stopping (spanish stop words taken from [here](https://github.com/6/stopwords-json)) can be seen in the following table:
 
 Amount of unique words: 156
 
