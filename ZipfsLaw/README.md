@@ -2,8 +2,8 @@
 
 This is a simple Spark program that allows to calculate Zipf's Law:
 
-    *The frequency of the rth most common word is inversely proportional to r or, alternatively,* 
-    _the rank of a word times its prequency (f) is approximately a constant (k)._
+   *The frequency of the rth most common word is inversely proportional to r or, alternatively,
+   the rank of a word times its prequency (f) is approximately a constant (k).*
 
 The program has a hardcoded entry dataset, which is a simple post of a well-knwon spanish car forum. 
 
